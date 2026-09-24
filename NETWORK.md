@@ -22,3 +22,13 @@ Part of the **Zion App Network** — 100+ AI business tools by [Zion Tech Group]
 - [ai-resume-screener](https://github.com/Zion-support/ai-resume-screener) · [interview-prep-copilot](https://github.com/Zion-support/interview-prep-copilot) · [onboarding-journey-ai](https://github.com/Zion-support/onboarding-journey-ai) · [skills-gap-analyzer](https://github.com/Zion-support/skills-gap-analyzer) · [attrition-risk-radar](https://github.com/Zion-support/attrition-risk-radar) · [learning-path-copilot](https://github.com/Zion-support/learning-path-copilot)
 
 © 2026 Zion Tech Group
+
+## 💼 Sales & Lead Gen AI Suite (network interlink)
+
+This app is part of the **Sales & Lead Gen AI suite** — 7 interlinked apps: signal → outreach → call → proposal → quote → cash.
+
+- 🗂️ Hub category: https://zion-support.github.io/zion-network/network/sales-lead-gen-ai.md
+- 🏠 Suite page: https://ziontechgroup.com/apps/sales-leadgen-suite.html
+- 🌐 Wave 3 spotlight: https://ziontechgroup.com/app-network-wave3-sept24.html
+- 📇 Master index: https://github.com/Zion-support/zion-network/blob/main/APPS_NETWORK.md
+- Suite repos: [zion-ai-sales-intelligence](https://github.com/Zion-support/zion-ai-sales-intelligence) · [ai-sales-email-copilot](https://github.com/Zion-support/ai-sales-email-copilot) · [lead-score-copilot](https://github.com/Zion-support/lead-score-copilot) · [sales-call-analyzer](https://github.com/Zion-support/sales-call-analyzer) · [proposal-builder-ai](https://github.com/Zion-support/proposal-builder-ai) · [zion-ai-quote-builder](https://github.com/Zion-support/zion-ai-quote-builder) · [quote-to-cash-accelerator](https://github.com/Zion-support/quote-to-cash-accelerator)
