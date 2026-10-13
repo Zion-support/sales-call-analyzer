@@ -1,0 +1,33 @@
+name: Render approved sales evidence sources
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sales-evidence-snapshot
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Render and validate pinned five-language source
+        env:
+          APP_INDEX: '2'
+          BASELINE_BLOB: 4fa661381dfd64417fb4c0fd4e290d01cec99fe0
+        run: node scripts/render-sales-evidence.cjs
+      - name: Commit only generated source snapshots
+        run: |
+          git config user.name 'Zion release automation'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html pt/index.html es/index.html fr/index.html de/index.html sales-evidence-publication.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Publish validated five-language sales evidence source snapshots'
+          git push origin HEAD:main
