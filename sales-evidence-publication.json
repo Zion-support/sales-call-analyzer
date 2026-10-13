@@ -1,0 +1,38 @@
+{
+  "release": "sales-three-evidence-2026-10-13-v1",
+  "sourceCommit": "ae2c76fb487c43da4e1aa181fa815fd56bbcc623",
+  "sourceSha256": "9604e4cde3caf3055609dc2733b68756b2e6f8b726297972cc552f3d92ac30b5",
+  "scope": "Five manual-planning guide translations; no functioning AI claim. Live deployment verified separately.",
+  "routes": [
+    {
+      "path": "index.html",
+      "canonical": "https://ziontechgroup.com/sales-call-analyzer/",
+      "locale": "en",
+      "sha256": "345452d65aa8c4fa7533e8534e4cb688f77fb3ee03e29222c90e3cec9e069fa4"
+    },
+    {
+      "path": "pt/index.html",
+      "canonical": "https://ziontechgroup.com/sales-call-analyzer/pt/",
+      "locale": "pt-BR",
+      "sha256": "309aedf9932cbea374d33fd456b5f545b49c73370b3e847cabaa8bf52e50b5c3"
+    },
+    {
+      "path": "es/index.html",
+      "canonical": "https://ziontechgroup.com/sales-call-analyzer/es/",
+      "locale": "es",
+      "sha256": "1c4e1760c97324250dbc955a29c30915bb92e844ed2510b6347127bc41b51a79"
+    },
+    {
+      "path": "fr/index.html",
+      "canonical": "https://ziontechgroup.com/sales-call-analyzer/fr/",
+      "locale": "fr",
+      "sha256": "4f77e1b7e23984869fc149e3cc5acaef93a82d5e9f72192edec175f6c9176575"
+    },
+    {
+      "path": "de/index.html",
+      "canonical": "https://ziontechgroup.com/sales-call-analyzer/de/",
+      "locale": "de",
+      "sha256": "7a2381d458c810c20307809a23010d0ac0d8695c2df3042bcf4866daaf841778"
+    }
+  ]
+}
